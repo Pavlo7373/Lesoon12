@@ -1,23 +1,23 @@
 import logo from './logo.svg';
+// import vector from './vector.svg';
+// import vector from '.vector.svg';
 import './App.css';
+import Header from './Components/Header/Header';
+// import Diabola from './Components/Pizza/Diabola/Diabola';
+import Blok3 from './Components/Blok3/Blok3';
+
+
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+
+     <div><Blok3/></div>
     </div>
   );
 }
